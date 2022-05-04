@@ -237,12 +237,12 @@ transform: scalex(30deg);
 }
 
 .text-center{
-    background-color: #ffffff;
+    background-color: #f9f0ac;
     transition: background-color 2s ease;
 }
 
 .text-center:hover{
-    background-color:#f6dfe7;
+    background-color:#bcfcdc;
 }
 
 .iniciosesion{
