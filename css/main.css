@@ -174,10 +174,6 @@ transform: scalex(30deg);
     padding-left: 50px;
 }
 
-
-
-
-
 /*Footer*/
 .cajas{
     font-family: 'Roboto', sans-serif;
@@ -235,6 +231,7 @@ transform: scalex(30deg);
 .caja__producto img{
     width: 100%;
 }
+/*Noticias*/
 
 .text-center{
     background-color: #f9f0ac;
@@ -245,36 +242,17 @@ transform: scalex(30deg);
     background-color:#bcfcdc;
 }
 
-.iniciosesion{
-    padding: 20px;
-    width: 350px;
-    text-align: center;
-    margin: 80px 0;
-    background-color: #FBDFE9;
-    border-radius: 10px;
-}
+/*Registrate*/
 
-.casillas__users{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.iniciosesion-fluid{
+   margin-top: 50px;
+   margin-bottom: 50px;
+   margin-left: 5px;
+   background-color: #FBDFE9;
 }
-.casillas__users input{
-    height: 40px;
-    width: 80%;
-    margin-bottom: 20px;
-    padding: 10px;
+.registrate{
+    padding-bottom: 20px;
 }
-
-.casillas__botones{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    }
-
-    .casillas__botones .boton{
-    background-color: #fff; width: 80%;
-   }
 
 @media screen and (min-width:768px){
     .grid{
@@ -329,8 +307,8 @@ transform: scalex(30deg);
         margin-left: 80px;
     }
 
-    .iniciosesion{
-        padding: 40px;
+    .iniciosesion-fluid{
+        margin-left: 30px;
         width: 700px;
     }
 }
@@ -360,14 +338,7 @@ transform: scalex(30deg);
         width: 320px;
     }
   
-    .iniciosesion{
-        padding: 40px;
-        width: 1000px;
+    .iniciosesion-fluid{
+        margin: 200px;
+        width: 700px;
     }
-    .casillas__botones{
-        width: 1000px;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-    .casillas__botones .boton{width: 30%;}
-}
