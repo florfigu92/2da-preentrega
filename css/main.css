@@ -254,6 +254,10 @@ transform: scalex(30deg);
     padding-bottom: 20px;
 }
 
+.padding-1{
+    padding: 10px;
+  }
+
 @media screen and (min-width:768px){
     .grid{
         grid-template-areas: "header header header header"
@@ -340,5 +344,7 @@ transform: scalex(30deg);
   
     .iniciosesion-fluid{
         margin: 200px;
-        width: 700px;
-    }
+        width: 700px; 
+        }
+    
+}
